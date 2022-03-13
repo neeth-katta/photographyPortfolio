@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../FCC portfolio/images/default.png" alt="Portfolio logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item" ><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Jane Doe</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Wedding Photographer</p>
+        <img src="images/portrait.jpg" alt="Picture of Jane Doe" class="intro__img">
+    </section>
+
+    <!-- My services -->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Wedding Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio delectus soluta rerum saepe alias accusantium voluptate omnis, nesciunt magnam atque. Officiis saepe velit quasi? Architecto maiores atque inventore voluptatem officia!</p>
+            </div> <!-- close service-->
+            <div class="service">
+                <h3>Portrait Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rem accusantium iure modi mollitia, animi illo ratione delectus recusandae a ducimus, sequi molestias, odio reiciendis expedita quas nesciunt soluta alias!</p>
+            </div> <!-- close service-->
+            <div class="service">
+                <h3>Couple's Photography</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab consectetur at soluta qui, nesciunt perferendis asperiores sint omnis dolore aut nostrum est sunt fugiat vitae eligendi eveniet. Recusandae, magnam qui?</p>
+            </div> <!-- close service-->
+        </div>
+        <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <div class="about-me__body">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda corporis dolores, earum dicta praesentium voluptates recusandae unde possimus mollitia deleniti nisi sequi quod provident sapiente? Alias non laboriosam reprehenderit ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sed soluta officia eos natus! Suscipit esse, aspernatur voluptate, dolor magni eveniet molestias id aperiam expedita eius, labore nesciunt obcaecati incidunt!</p>
+        </div>
+
+        <img src="images/about_me.jpg" alt="Picture of myself" class="about-me__image">
+    </section>
+
+    <!-- My work -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A collection of moments captured and eternalised.
+        </p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-01.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            <div class="portfolio">
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-02.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item portfolio__item--spacing"> 
+                <img src="images/portfolio-05.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            </div>
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-03.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-04.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-06.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-07.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item"> 
+                <img src="images/portfolio-08.jpg" alt="wedding photography samples" class="portfolio__img">
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <!-- <div class="footer__form ">
+            <form method="post" action="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <div class="footer__form--name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="footer__form--name">
+                <label for="email">Email ID</label>
+                <input type="text" name="name" id="email" placeholder="Email Address" />
+                </div>
+                <div class="footer__form--name">
+                <label for="message">Message</label>
+                <input type="text" name="name" id="message" placeholder="Message" rows="4" />
+                </div>
+            </form>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+            </ul>
+        </div> -->
+
+        <!-- <div> -->
+        <a href="mailto:janedoe@jane.dev" class="footer__link">janedoe@jane.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        <!-- </div> -->
+    </footer>
+
+    <script src="../FCC portfolio/js/script.js"></script>
+</body>
+</html>
